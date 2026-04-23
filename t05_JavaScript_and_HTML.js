@@ -27,6 +27,10 @@ const OUTPUT = document.getElementById("JavaScriptOutput");
 /****************************
 Main code
 ****************************/
+OUTPUT.innerHTML ="<h2> javacript file </h2> ";
+OUTPUT.innerHTML +="<p> javacript file </p> ";
+OUTPUT.innerHTML +="<p> javacript file </p> ";
+OUTPUT.innerHTML +="<p> javacript file </p> ";
 
 
 
