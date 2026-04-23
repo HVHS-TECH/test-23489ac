@@ -21,7 +21,7 @@ console.log(" In 10 year you will be ",+ userAge + in10years );
 console.log(" You spend half of your money,now you have ",+ usermoney / youspend);
 console.log(" Then you get $3, now you " ,+leftmoney + add  )
 
-const OUTPUT = document.getElementById("JavaScriptOutput");
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 
 /****************************
