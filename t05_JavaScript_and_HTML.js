@@ -27,7 +27,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 Main code
 ****************************/
-OUTPUT.innerHTML ="<h2> JavaScriptOutput</h2> ";
+OUTPUT.innerHTML ="<h2>spaceForJavaScriptOutput </h2> ";
 OUTPUT.innerHTML +="<p> javacript file </p> ";
 OUTPUT.innerHTML +="<p> javacript file </p> ";
 OUTPUT.innerHTML +="<p> javacript file </p> ";
