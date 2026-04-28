@@ -32,11 +32,12 @@ OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
 OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
 OUTPUT.innerHTML +="<p> I am studying cs </p> ";
 
-writeLine()
-function writeLine(){
-    OUTPUT.innerHTML +="<p> welcome to my website </p>"
-}
+
 writeLine();
 /****************************
 Functions
 ****************************/
+writeLine()
+function writeLine(){
+    OUTPUT.innerHTML +="<p>Welcome to the shop</p>"
+}
