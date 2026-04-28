@@ -39,5 +39,5 @@ Functions
 ****************************/
 writeLine()
 function writeLine(){
-    OUTPUT.innerHTML +="<p>Welcome to the shop</p>"
+    OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
 }
