@@ -22,7 +22,7 @@ OUTPUT.innerHTML+="<p>  You have" + usermoney + " dollars </p>";
 OUTPUT.innerHTML+="<p>  You were born in " + mybirthyear+ "</p>"; 
 OUTPUT.innerHTML+="<p>  In 10 year you will be "+ userAge + in10years+ "</p>";  
 OUTPUT.innerHTML+="<p> You spend half of your money,now you have " + usermoney/youspend + "</p>"; 
-OUTPUT.innerHTML+="<p>  Then you get $3, now you " , + leftmoney+add +"</p>"; 
+OUTPUT.innerHTML+="<p>  Then you get $3, now you " , + leftmoney+ add +"</p>"; 
 
 /****************************
 Main code
