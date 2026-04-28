@@ -5,33 +5,34 @@ console.log("Running T5intro.js");
 
 //Variable
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-
+writeLine()
+function writeLine(){
 let userName = 'Aarti';
 let userAge = 16;
 let usermoney = 10;
 let usercurrentyear = 2026;
 OUTPUT.innerHTML = "<h1> hi + 'userName' </h1>";
-OUTPUT.innerHTML= " A of " + usercurrentyear + " you are "+ userAge +" years old ";
-OUTPUT.innerHTML=" You have "+ usermoney +" dollars ";
+OUTPUT.innerHTML+= " A of " + usercurrentyear + " you are "+ userAge +" years old ";
+OUTPUT.innerHTML+=" You have "+ usermoney +" dollars ";
 var mybirthyear = 2009
 var in10years = 10
 var youspend = 2
 var add = 3
 var leftmoney = 5
-OUTPUT.innerHTML=" You were born in "+ mybirthyear;
-OUTPUT.innerHTML=" In 10 year you will be ",+ userAge + in10years ;
-OUTPUT.innerHTML=" You spend half of your money,now you have ",+ usermoney / youspend;
-OUTPUT.innerHTML=" Then you get $3, now you " ,+leftmoney + add  
+OUTPUT.innerHTML+=" You were born in "+ mybirthyear;
+OUTPUT.innerHTML+=" In 10 year you will be ",+ userAge + in10years ;
+OUTPUT.innerHTML+=" You spend half of your money,now you have ",+ usermoney / youspend;
+OUTPUT.innerHTML+=" Then you get $3, now you " ,+leftmoney + add  
 
 /****************************
 Main code
 ****************************/
-OUTPUT.innerHTML ="<h2>spaceForJavaScriptOutput </h2> ";
+OUTPUT.innerHTML +="<h2>spaceForJavaScriptOutput </h2> ";
 OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
 OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
 OUTPUT.innerHTML +="<p> I am studying cs </p> ";
-
-
+}
+writeLine();
 
 
 /****************************
