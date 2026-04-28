@@ -8,7 +8,7 @@ let userName = 'Aarti';
 let userAge = 16;
 let usermoney = 10;
 let usercurrentyear = 2026;
-console.log (" hi "+ userName);
+OUTPUT.innerHTML = " hi "+ userName;
 console.log(" A of " + usercurrentyear + " you are "+ userAge +" years old ");
 console.log(" You have "+ usermoney +" dollars ");
 var mybirthyear = 2009
