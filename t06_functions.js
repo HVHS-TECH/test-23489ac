@@ -33,12 +33,11 @@ OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
 OUTPUT.innerHTML +="<p> I am studying cs </p> ";
 
 writeLine()
-
+function writeLine(){
+    OUTPUT.innerHTML +="<p> welcome to my website </p>"
+}
 
 /****************************
 Functions
 ****************************/
-function writeLine(){
-    Hi welcome to my website 
-    OUTPUT.innerHTML +="<p> more code matters</p>"
-}
+writeLine()
