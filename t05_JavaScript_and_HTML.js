@@ -4,25 +4,24 @@ Name of the task:
 console.log("Running T5intro.js");
 
 //Variable
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
 let userName = 'Aarti';
 let userAge = 16;
 let usermoney = 10;
 let usercurrentyear = 2026;
 OUTPUT.innerHTML = " hi "+ userName;
-console.log(" A of " + usercurrentyear + " you are "+ userAge +" years old ");
-console.log(" You have "+ usermoney +" dollars ");
+OUTPUT.innerHTML= " A of " + usercurrentyear + " you are "+ userAge +" years old ";
+OUTPUT.innerHTML=" You have "+ usermoney +" dollars ";
 var mybirthyear = 2009
 var in10years = 10
 var youspend = 2
 var add = 3
 var leftmoney = 5
-console.log(" You were born in "+ mybirthyear);
-console.log(" In 10 year you will be ",+ userAge + in10years );
-console.log(" You spend half of your money,now you have ",+ usermoney / youspend);
-console.log(" Then you get $3, now you " ,+leftmoney + add  )
-
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-
+OUTPUT.innerHTML=" You were born in "+ mybirthyear;
+OUTPUT.innerHTML=" In 10 year you will be ",+ userAge + in10years ;
+OUTPUT.innerHTML=" You spend half of your money,now you have ",+ usermoney / youspend;
+OUTPUT.innerHTML=" Then you get $3, now you " ,+leftmoney + add  
 
 /****************************
 Main code
