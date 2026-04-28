@@ -10,6 +10,7 @@ function writeLine(){
 let userName = "Aarti";
 let userAge = 16;
 let usercurrentyear = 2026;
+var usermoney = 10;
 var mybirthyear = 2009;
 let in10years = 10;
 var youspend = 2;
@@ -20,8 +21,8 @@ OUTPUT.innerHTML+= "<p>  As of " + usercurrentyear + " you are "+ userAge +" yea
 OUTPUT.innerHTML+="<p>  You have" + usermoney + " dollars </p>";
 OUTPUT.innerHTML+="<p>  You were born in " + mybirthyear+ "</p>"; 
 OUTPUT.innerHTML+="<p>  In 10 year you will be "+ userAge+in10years + "</p>";  
-let usermoney = 10;
-OUTPUT.innerHTML+="<p> You spend half of your money,now you have " + (usermoney/youspend) + "</p>"; 
+let spent = usermoney/youspend;
+OUTPUT.innerHTML+="<p> You spend half of your money,now you have " + spent + "</p>"; 
 OUTPUT.innerHTML+="<p>  Then you get $3, now you " + leftmoney+add +"</p>"; 
 
 /****************************
