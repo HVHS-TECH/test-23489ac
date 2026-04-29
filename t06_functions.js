@@ -37,7 +37,6 @@ writeLine();
 /****************************
 Functions
 ****************************/
-writeLine()
 function writeLine(){
     OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
 }
