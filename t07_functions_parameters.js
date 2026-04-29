@@ -45,5 +45,5 @@ displayProduct("Cholate bar, 4");
 displayProduct("Chips, 3");
 displayProduct(",Drink 2.50");
 function displayProduct(_name,_price){
-    OUTPUT.innerHTML+= "<p>" +_name "+: $ "+_priice + "</p>";
+    OUTPUT.innerHTML+= "<p>" +_name '+: $ '+ _price + "</p>";
 }
