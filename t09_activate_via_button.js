@@ -27,6 +27,8 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 Main code
 ****************************/
+function start(){
+
 OUTPUT.innerHTML ="<h2>spaceForJavaScriptOutput </h2> ";
 OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
 OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
@@ -40,4 +42,4 @@ Functions
 function writeLine(){
     OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
 }
-
+}
