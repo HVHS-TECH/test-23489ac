@@ -1,7 +1,7 @@
 /****************************
 Name of the task:
 ****************************/
-console.log("Running T5intro.js");
+console.log("Running T10input_from_HTML.js");
 
 //Variable
 let userName = 'Aarti';
@@ -46,5 +46,5 @@ function writeLine(){
 function getFormInput(){
     const NAME_fIELD = document.getElementById("nameField");
     let userName = NAME_fIELD.value;
-    OUTPUT.innerHTML= "<p> Your name is "+userName+"</p>"
+    OUTPUT.innerHTML= "<p> welcome to the page "+userName+"</p>"
 }
