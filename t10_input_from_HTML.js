@@ -46,5 +46,5 @@ function writeLine(){
 function getFormInput(){
     const NAME_fIELD = document.getElementById("nameField");
     let userName = NAME_fIELD.value;
-    OUTPUT.innerHTML= "<p> YOur name is"+userName+"</p>"
+    OUTPUT.innerHTML= "<p> Your name is "+userName+"</p>"
 }
