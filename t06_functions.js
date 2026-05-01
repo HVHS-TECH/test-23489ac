@@ -40,8 +40,3 @@ Functions
 function writeLine(){
     OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
 }
-function getFormInput(){
-    const NAME_fIELD = document.getElementById("nameField");
-    let userName = NAME_fIELD.value;
-    OUTPUT.innerHTML= "<p> YOur name is"+userName+"</p>"
-}
