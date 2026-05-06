@@ -59,7 +59,7 @@ const MONEY_fIELD = document.getElementById("moneyField");
     OUTPUT.innerHTML+= "<p> Your pocket money is: $ " +usermoney+ "</p>"
 }
 function calculateChange(_money, _price){
-    
+   return _money - _price;
 }
 function getFormInput(){
     const MONEY_fIELD = document.getElementById("moneyField");
