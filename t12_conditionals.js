@@ -1,7 +1,7 @@
 /****************************
 Name of the task:
 ****************************/
-console.log("Running T12T12-conditionals.js");
+console.log("Running T12-conditionals.js");
 
 //Variable
 let userName = 'Aarti';
