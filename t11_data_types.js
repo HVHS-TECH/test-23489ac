@@ -48,9 +48,13 @@ function getFormInput(){
     let userName = NAME_fIELD.value;
     OUTPUT.innerHTML= "<p> welcome to my page "+userName+"</p>"
 }
+function getFormInput(){
+    let ageInput = document.getElementById("ageField").value;
+    let moneyInput = document.getElementById("moneyField").value;
 
 if (userAge>=16 ){
     OUTPUT.innerHTML+=<p>you are old enough to work </p>;    
 } else{
     OUTPUT.innerHTML+=<p>you are to young to work </p>; 
+}
 }
