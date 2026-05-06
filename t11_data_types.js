@@ -51,9 +51,9 @@ function getFormInput(){
 function getFormInput(){
  const AGE_fIELD = document.getElementById("ageField");
     let userAge = AGE_fIELD.value;
+    OUTPUT.innerHTML= "<p> Your age is :" +userAge+ "</p>"
 const MONEY_fIELD = document.getElementById("moneyField");
     let usermoney = MONEY_fIELD.value;
-    OUTPUT.innerHTML= "<p> Your age is :" +userAge+ "</p>"
     OUTPUT.innerHTML= "<p> Your pocket money is: $ " +usermoney+ "</p>"
 if (userAge>=16 ){
     OUTPUT.innerHTML+="<p>you are old enough to work </p>";    
