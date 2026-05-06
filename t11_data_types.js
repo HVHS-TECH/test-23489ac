@@ -46,12 +46,13 @@ function writeLine(){
 function getFormInput(){
     const NAME_fIELD = document.getElementById("nameField");
     let userName = NAME_fIELD.value;
-    OUTPUT.innerHTML= "<p> welcome to my page "+userName+"</p>"
+    OUTPUT.innerHTML+= "<p> welcome to my page "+userName+"</p>"
 }
 function getFormInput(){
     let ageInput = document.getElementById("ageField").value;
     let moneyInput = document.getElementById("moneyField").value;
-
+    OUTPUT.innerHTML= "<p> Your age is :" +userAge+ "</p>"
+    OUTPUT.innerHTML= "<p> Your pokit money is: $ " +userName+ "</p>"
 if (userAge>=16 ){
     OUTPUT.innerHTML+=<p>you are old enough to work </p>;    
 } else{
