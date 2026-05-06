@@ -80,6 +80,3 @@ let messages = [ "You loathe chocolate", "Chocolate is meh", "Chocolate is prett
     let userChoice = chocolate_Field.value;
     OUTPUT.innerHTML += "<p>"+ messages[userChoice]+ "</p>";
 }
-for (let i=0; i<=99; i++){
-    console.log("99 bottles of <milk> on the wall")
-}
