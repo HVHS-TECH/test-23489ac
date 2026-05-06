@@ -22,9 +22,12 @@
   <p><br><br><i>Copy your HTML from the last task and keep building.</i><br><br><br><br></p>
 
   <div id="spaceForJavaScriptOutput">
- <label for=" forMoney"> Your pocket money: </label>
+   <form onsubmit="return false;">
+    <label for=" forMoney"> Your pocket money: </label>
     <input type="number" id="moneyField" name = "forMoney" placeholder="Enter your poket money ">
-    <button onclick="getFormInput()">Check</button>
+    <input type="submit" onClick=getFormInput()>
+   </form> 
+ 
 
   </div>
 
