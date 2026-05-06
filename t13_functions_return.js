@@ -58,14 +58,16 @@ const MONEY_fIELD = document.getElementById("moneyField");
     OUTPUT.innerHTML+= "<p> Your age is :" +userAge+ "</p>"
     OUTPUT.innerHTML+= "<p> Your pocket money is: $ " +usermoney+ "</p>"
 }
-
+function calculateChange(_money,_price){
+    return _money - _price;
+}
 function getFormInput(){
     const MONEY_fIELD = document.getElementById("moneyField");
     let usermoney = MONEY_fIELD.value;
-
+ const PRICE = 4
  OUTPUT.innerHTML = "<p>A chocolate bar costs $4</p>";
-    if (usermoney >=4 ){
-        var change = calculateChange (_money, _4)
+    if (usermoney >=PRICE ){
+        var change = calculateChange (usermoney,PRICE )
     OUTPUT.innerHTML +="<p>You CAN afford a chocolate bar</p>";    
     OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
 } else{
