@@ -74,3 +74,10 @@ function getFormInput(){
     OUTPUT.innerHTML+="<p>Sorry you CAN'T afford a chocolate bar </p>"; 
 }
 }
+let message = [You loath chocolate"
+
+"Chocolate is meh"
+
+"Chocolate is pretty good"
+
+"Chocolate is the best thing EVER!!!!" ]
