@@ -51,7 +51,7 @@ function getFormInput(){
 function getFormInput(){
     let ageInput = document.getElementById("ageField").value;
     let moneyInput = document.getElementById("moneyField").value;
-    const 
+
     OUTPUT.innerHTML= "<p> Your age is :" +userAge+ "</p>"
     OUTPUT.innerHTML= "<p> Your pokit money is: $ " +userName+ "</p>"
 if (userAge>=16 ){
