@@ -49,9 +49,11 @@ function getFormInput(){
     OUTPUT.innerHTML+= "<p> welcome to my page "+userName+"</p>"
 }
 function getFormInput(){
-    let ageInput = document.getElementById("ageField").value;
-    let moneyInput = document.getElementById("moneyField").value;
-
+ const AGE_fIELD = document.getElementById("ageField");
+    let userAge = AGE_fIELD.value;
+const MONEY_fIELD = document.getElementById("moneyField");
+    let usermoney = MONEY_fIELD.value;
+    OUTPUT.innerHTML+= "<p> welcome to my page "+userName+"</p>"
     OUTPUT.innerHTML= "<p> Your age is :" +userAge+ "</p>"
     OUTPUT.innerHTML= "<p> Your pokit money is: $ " +usermoney+ "</p>"
 if (userAge>=16 ){
