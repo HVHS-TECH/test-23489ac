@@ -81,5 +81,5 @@ let messages = [ "You loathe chocolate", "Chocolate is meh", "Chocolate is prett
     OUTPUT.innerHTML += "<p>"+ messages[userChoice]+ "</p>";
 }
 for (let i=0; i<=99; i++){
-    console.log()
+    console.log("99 bottles of <milk> on the wall")
 }
