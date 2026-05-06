@@ -51,11 +51,12 @@ function getFormInput(){
 function getFormInput(){
     let ageInput = document.getElementById("ageField").value;
     let moneyInput = document.getElementById("moneyField").value;
+    const 
     OUTPUT.innerHTML= "<p> Your age is :" +userAge+ "</p>"
     OUTPUT.innerHTML= "<p> Your pokit money is: $ " +userName+ "</p>"
 if (userAge>=16 ){
-    OUTPUT.innerHTML+=<p>you are old enough to work </p>;    
+    OUTPUT.innerHTML+="<p>you are old enough to work </p>";    
 } else{
-    OUTPUT.innerHTML+=<p>you are to young to work </p>; 
+    OUTPUT.innerHTML+="<p>you are to young to work </p>"; 
 }
 }
