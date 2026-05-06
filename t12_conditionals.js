@@ -48,7 +48,8 @@ function getFormInput(){
     const NAME_fIELD = document.getElementById("nameField");
     let userName = NAME_fIELD.value;
     OUTPUT.innerHTML+= "<p> welcome to my page "+userName+"</p>"
-
+}
+function getFormInput(){
  const AGE_fIELD = document.getElementById("ageField");
     let userAge = Number(AGE_fIELD.value);
 const MONEY_fIELD = document.getElementById("moneyField");
