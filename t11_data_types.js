@@ -48,5 +48,6 @@ function getFormInput(){
     let userName = NAME_fIELD.value;
     OUTPUT.innerHTML= "<p> welcome to my page "+userName+"</p>"
 }
-if (userAge>16)
-    
+if (userAge>=16 ){
+    OUTPUT.innerHTML+=<p>yoou are</p>
+}
