@@ -76,7 +76,7 @@ function getFormInput(){
 }
 let message = [ "You loath chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER" ];
 function checkChocolate(){
-    const  checkChocolate = document.getElementById("checkChocolate");
+    const  chocolate_Field = document.getElementById("chocolate_Field");
     let userChoice = checkChocolate.value;
-    
+
 }
