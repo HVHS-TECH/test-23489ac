@@ -78,5 +78,5 @@ let message = [ "You loath chocolate", "Chocolate is meh", "Chocolate is pretty 
 function checkChocolate(){
     const  chocolate_Field = document.getElementById("chocolate_Field");
     let userChoice = checkChocolate.value;
-
+    OUTPUT.innerHTML += "<p>"+ message[userChoice]+ "</p>";
 }
