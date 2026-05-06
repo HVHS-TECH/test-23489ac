@@ -2,7 +2,7 @@
 Name of the task:
 ****************************/
 console.log("Running T12-conditionals.js");
-alert("JS is connected");
+
 //Variable
 let userName = 'Aarti';
 let userAge = 16;
