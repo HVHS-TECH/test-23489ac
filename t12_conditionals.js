@@ -49,19 +49,17 @@ function getFormInput(){
     OUTPUT.innerHTML+= "<p> welcome to my page "+userName+"</p>"
 
  const AGE_fIELD = document.getElementById("ageField");
-    let userAge = AGE_fIELD.value;
+    let userAge = Number(AGE_fIELD.value);
 const MONEY_fIELD = document.getElementById("moneyField");
-    let usermoney = MONEY_fIELD.value;
+    let usermoney = Number(MONEY_fIELD.value);
 
     OUTPUT.innerHTML+= "<p> Your age is :" +userAge+ "</p>"
     OUTPUT.innerHTML+= "<p> Your pocket money is: $ " +usermoney+ "</p>"
 
  OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
     if (usermoney>=4 ){
-    OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
     OUTPUT.innerHTML+="<p>You CAN afford a chocolate bar</p>";    
 } else{
-    OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
     OUTPUT.innerHTML+="<p>Sorry you CAN'T afford a chocolate bar </p>"; 
 }
 }
