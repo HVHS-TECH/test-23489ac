@@ -61,6 +61,7 @@ const MONEY_fIELD = document.getElementById("moneyField");
 function getFormInput(){
     const MONEY_fIELD = document.getElementById("moneyField");
     let usermoney = MONEY_fIELD.value;
+    
  OUTPUT.innerHTML = "<p>A chocolate bar costs $4</p>";
     if (usermoney>=4 ){
     OUTPUT.innerHTML +="<p>You CAN afford a chocolate bar</p>";    
