@@ -56,14 +56,9 @@ const MONEY_fIELD = document.getElementById("moneyField");
 
     OUTPUT.innerHTML+= "<p> Your age is :" +userAge+ "</p>"
     OUTPUT.innerHTML+= "<p> Your pocket money is: $ " +usermoney+ "</p>"
-if (userAge>=16 ){
-    OUTPUT.innerHTML+="<p>you are old enough to work </p>";    
-} else{
-    OUTPUT.innerHTML+="<p>you are to young to work </p>"; 
-}
 if (userAge>=4 ){
     OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
-    OUTPUT.innerHTML+="<p>Sorry you CAN'T afford a chocolate barYou CAN afford a choolate bar</p>";    
+    OUTPUT.innerHTML+="<p>You CAN afford a choolate bar</p>";    
 } else{
     OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
     OUTPUT.innerHTML+="<p>Sorry you CAN'T afford a chocolate bar </p>"; 
