@@ -57,7 +57,10 @@ const MONEY_fIELD = document.getElementById("moneyField");
 
     OUTPUT.innerHTML+= "<p> Your age is :" +userAge+ "</p>"
     OUTPUT.innerHTML+= "<p> Your pocket money is: $ " +usermoney+ "</p>"
-
+}
+function getFormInput(){
+    const MONEY_fIELD = document.getElementById("moneyField");
+    let usermoney = Number(MONEY_fIELD.value);
  OUTPUT.innerHTML += "<p>A chocolate bar costs $4</p>";
     if (usermoney>=4 ){
     OUTPUT.innerHTML+="<p>You CAN afford a chocolate bar</p>";    
