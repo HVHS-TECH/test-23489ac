@@ -37,7 +37,7 @@ Functions
 ****************************/
 writeLine();
 function writeLine(){
-    OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
+   OUTPUT.innerHTML= "<p> welcome to the page "+userName+"</p>";
 }
 displayProduct("Cholate bar", 4);
 displayProduct("Chips", 3);
