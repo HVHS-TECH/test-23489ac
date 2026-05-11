@@ -28,7 +28,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 Main code
 ****************************/
 function start(){
-
+function getFormInput(){
 OUTPUT.innerHTML ="<h2>spaceForJavaScriptOutput </h2> ";
 OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
 OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
@@ -41,13 +41,6 @@ Functions
 ****************************/
 function writeLine(){
     OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
-    displayProduct("Cholate bar", 4);
-displayProduct("Chips", 3);
-displayProduct("Drink ",2.50);
-
-function displayProduct(_name,_price){
-    OUTPUT.innerHTML+= "<p>"+" These are the things i have" +_name +": $" + _price + "</p>";
-}
 }
 }
 function getFormInput(){
@@ -55,5 +48,11 @@ function getFormInput(){
     let userName = NAME_fIELD.value;
     OUTPUT.innerHTML= "<p> welcome to the page "+userName+"</p>"
 
+displayProduct("Cholate bar", 4);
+displayProduct("Chips", 3);
+displayProduct("Drink ",2.50);
 
+function displayProduct(_name,_price){
+    OUTPUT.innerHTML+= "<p>"+" These are the things i have" +_name +": $" + _price + "</p>";
+}
 }
