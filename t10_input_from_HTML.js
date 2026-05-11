@@ -33,8 +33,6 @@ OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
 OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
 OUTPUT.innerHTML +="<p> I am studying cs </p> ";
 
-
-writeLine();
 /****************************
 Functions
 ****************************/
@@ -54,4 +52,4 @@ displayProduct("Drink ",2.50);
 function displayProduct(_name,_price){
     OUTPUT.innerHTML+= "<p>"+" These are the things i have" +_name +": $" + _price + "</p>";
 }
-}
+}writeLine();
