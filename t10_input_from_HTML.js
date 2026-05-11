@@ -27,7 +27,6 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 Main code
 ****************************/
-function start(){
 function getFormInput(){
 OUTPUT.innerHTML ="<h2>spaceForJavaScriptOutput </h2> ";
 OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
