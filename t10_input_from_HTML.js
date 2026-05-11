@@ -38,9 +38,8 @@ Functions
 ****************************/
 function writeLine(){
     OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
-}
 
-function getFormInput(){
+
     const NAME_fIELD = document.getElementById("nameField");
     let userName = NAME_fIELD.value;
     OUTPUT.innerHTML= "<p> welcome to the page "+userName+"</p>"
@@ -52,5 +51,7 @@ displayProduct("Drink ",2.50);
 function displayProduct(_name,_price){
     OUTPUT.innerHTML+= "<p>"+" These are the things i have" +_name +": $" + _price + "</p>";
 }
-} 
-}writeLine();
+ 
+}
+writeLine();
+}
