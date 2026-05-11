@@ -28,26 +28,26 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 Main code
 ****************************/
 
+OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
+OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
+OUTPUT.innerHTML +="<p> I am studying cs </p> ";
+
 /****************************
 Functions
 ****************************/
 writeLine();
 function writeLine(){
-   OUTPUT.innerHTML= "<p> welcome to the page "+ userName+"</p>";
+   OUTPUT.innerHTML= "<p> welcome to the page "+userName+"</p>";
 }
-function getFormInput(){
-    const nameField = document.getElementById("nameField");
-    let userName = nameField.value;
-    OUTPUT.innerHTML= "<p> welcome to the page "+ userName +"</p>"
-   OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
-OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
-OUTPUT.innerHTML +="<p> I am studying cs </p> ";
 displayProduct("Cholate bar", 4);
 displayProduct("Chips", 3);
 displayProduct("Drink ",2.50);
 
 function displayProduct(_name,_price){
     OUTPUT.innerHTML+= "<p>" +_name +": $" + _price + "</p>";
-}   
 }
-
+function getFormInput(){
+    const nameField = document.getElementById("nameField");
+    let userName = nameField.value;
+    OUTPUT.innerHTML= "<p> welcome to the page "+ userName +"</p>"
+}
