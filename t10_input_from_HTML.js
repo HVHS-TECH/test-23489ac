@@ -28,10 +28,10 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 Main code
 ****************************/
 function getFormInput(){
-    const NAME_fIELD = document.getElementById("nameField");
-    let userName = NAME_fIELD.value;
+    const nameField = document.getElementById("nameField");
+    let userName = nameField.value;
     OUTPUT.innerHTML= "<p> welcome to the page "+userName+"</p>"
-    
+
 OUTPUT.innerHTML ="<h2>spaceForJavaScriptOutput </h2> ";
 OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
 OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
