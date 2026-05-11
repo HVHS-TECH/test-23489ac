@@ -37,7 +37,7 @@ Functions
 ****************************/
 writeLine();
 function writeLine(){
-   OUTPUT.innerHTML= "<p> welcome to the page "+userName+"</p>";
+   OUTPUT.innerHTML= "<p> welcome to the page "+ userName+"</p>";
 }
 displayProduct("Cholate bar", 4);
 displayProduct("Chips", 3);
@@ -50,4 +50,5 @@ function getFormInput(){
     const nameField = document.getElementById("nameField");
     let userName = nameField.value;
     OUTPUT.innerHTML= "<p> welcome to the page "+ userName +"</p>"
+}
 }
