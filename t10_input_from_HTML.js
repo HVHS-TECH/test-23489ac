@@ -49,5 +49,5 @@ function displayProduct(_name,_price){
 function getFormInput(){
     const nameField = document.getElementById("nameField");
     let userName = nameField.value;
-    OUTPUT.innerHTML= "<p> welcome to the page "+userName+"</p>"
+    OUTPUT.innerHTML= "<p> welcome to the page "+ userName +"</p>"
 }
