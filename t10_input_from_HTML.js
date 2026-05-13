@@ -48,7 +48,7 @@ function getFormInput(){
     OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
 }
 writeLine();
-displayProduct("Chocolate bar", 4);
+displayProduct("Chocolate Bar", 4);
 displayProduct("Chips", 3);
 displayProduct("Drink ",2.50);
 function displayProduct(_name,_price){
