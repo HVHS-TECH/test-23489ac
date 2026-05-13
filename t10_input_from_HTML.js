@@ -31,7 +31,6 @@ Main code
 /****************************
 Functions
 ****************************/
-writeLine();
 function writeLine(){
     OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
 }
@@ -51,5 +50,8 @@ function getFormInput(){
     OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
     OUTPUT.innerHTML +="<p> I am studying cs </p> ";
 
-
+writeLine();
+displayProduct("Cholate bar", 4);
+displayProduct("Chips", 3);
+displayProduct("Drink ",2.50);
 }
