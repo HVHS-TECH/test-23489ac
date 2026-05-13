@@ -1,3 +1,41 @@
+/***********************
+console.log(" You were born in "+ mybirthyear);
+console.log(" In 10 year you will be ",+ userAge + in10years );
+console.log(" You spend half of your money,now you have ",+ usermoney / youspend);
+console.log(" Then you get $3, now you " ,+leftmoney + add  )
+
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
+
+/****************************
+Main code
+****************************/
+
+OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
+OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
+OUTPUT.innerHTML +="<p> I am studying cs </p> ";
+
+/****************************
+Functions
+****************************/
+writeLine();
+function writeLine(){
+   OUTPUT.innerHTML= "<p> welcome to the page "+userName+"</p>";
+}
+displayProduct("Cholate bar", 4);
+displayProduct("Chips", 3);
+displayProduct("Drink ",2.50);
+
+function displayProduct(_name,_price){
+    OUTPUT.innerHTML+= "<p>" +_name +": $" + _price + "</p>";
+}
+function getFormInput(){
+    const nameField = document.getElementById("nameField");
+    let userName = nameField.value;
+    OUTPUT.innerHTML= "<p> welcome to the page "+ userName +"</p>"
+}
+
+
 /****************************
 Name of the task:
 ****************************/
@@ -27,17 +65,18 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 /****************************
 Main code
 ****************************/
-function getFormInput(){
+OUTPUT.innerHTML ="<h2>spaceForJavaScriptOutput </h2> ";
 OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
 OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
 OUTPUT.innerHTML +="<p> I am studying cs </p> ";
+
 
 /****************************
 Functions
 ****************************/
 writeLine();
 function writeLine(){
-   OUTPUT.innerHTML += "<p> welcome to the page "+userName+"</p>";
+    OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
 }
 displayProduct("Cholate bar", 4);
 displayProduct("Chips", 3);
@@ -45,13 +84,4 @@ displayProduct("Drink ",2.50);
 
 function displayProduct(_name,_price){
     OUTPUT.innerHTML+= "<p>" +_name +": $" + _price + "</p>";
-}
-
-    const nameField = document.getElementById("nameField");
-     userName = nameField.value;
-    OUTPUT.innerHTML= "<p> welcome to the page "+ userName +"</p>"
-    OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
-OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
-OUTPUT.innerHTML +="<p> I am studying cs </p> ";
-writeLine();
 }
