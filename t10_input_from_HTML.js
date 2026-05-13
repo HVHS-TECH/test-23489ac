@@ -1,7 +1,7 @@
 /****************************
 Name of the task:
 ****************************/
-console.log("Running T6functions.js");
+console.log("Running T10_input_from_HTML.js");
 
 //Variable
 let userName = 'Aarti';
