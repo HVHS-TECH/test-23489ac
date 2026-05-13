@@ -88,4 +88,4 @@ for (let i=0; i<=99; i++){
     
 }
 }
-let sho
+let shoppingList = [ ];
