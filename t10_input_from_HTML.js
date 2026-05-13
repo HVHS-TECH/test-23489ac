@@ -38,9 +38,6 @@ function writeLine(){
     OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
 }
 
-function displayProduct(_name,_price){
-    OUTPUT.innerHTML+= "<p>" +_name +": $" + _price + "</p>";
-}
 function getFormInput(){
     const nameField = document.getElementById("nameField");
     let userName = nameField.value;
@@ -54,4 +51,7 @@ writeLine();
 displayProduct("Chocolate bar", 4);
 displayProduct("Chips", 3);
 displayProduct("Drink ",2.50);
+function displayProduct(_name,_price){
+    OUTPUT.innerHTML+= "<p>" +_name +": $" + _price + "</p>";
+}
 }
