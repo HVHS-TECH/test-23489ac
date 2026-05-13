@@ -89,11 +89,11 @@ for (let i=0; i<=99; i++){
 }
 }
 let shoppingList = [ ];
-function addIteam(){
+function addItem(){
   const itemField = document.getElementById("itemField");
-  let userIteam = itemField.value;
-  shopping.push("userIteam")
-  OUTPUT.innerHTML += "<p>You have added "+ userIteam +" to the list </p>";
+  let userItem = itemField.value;
+  shopping.push("userItem")
+  OUTPUT.innerHTML += "<p>You have added "+ userItem +" to the list </p>";
 
 }
 function showList() {
