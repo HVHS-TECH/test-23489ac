@@ -44,8 +44,8 @@ function displayProduct(_name,_price){
 function getFormInput(){
     const nameField = document.getElementById("nameField");
     let userName = nameField.value;
-    OUTPUT.innerHTML+= "<p> welcome to the page "+ userName +"</p>"
-    OUTPUT.innerHTML ="<h2>spaceForJavaScriptOutput </h2> ";
+    OUTPUT.innerHTML= "<p> welcome to the page "+ userName +"</p>"
+    OUTPUT.innerHTML +="<h2>spaceForJavaScriptOutput </h2> ";
     OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
     OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
     OUTPUT.innerHTML +="<p> I am studying cs </p> ";
