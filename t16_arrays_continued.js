@@ -90,5 +90,9 @@ for (let i=0; i<=99; i++){
 }
 let shoppingList = [ ];
 function getFormInput(){
-    
+  const itemField = document.getElementById("itemField");
+  let userIteam = itemField.value;
+  shopping.push("userIteam")
+  OUTPUT.innerHTML += "<p>You have added "+ userIteam +" to the list </p>";
+
 }
