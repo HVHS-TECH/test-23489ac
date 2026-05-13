@@ -48,9 +48,10 @@ function displayProduct(_name,_price){
 }
 
     const nameField = document.getElementById("nameField");
-    let userName = nameField.value;
+     userName = nameField.value;
     OUTPUT.innerHTML= "<p> welcome to the page "+ userName +"</p>"
     OUTPUT.innerHTML +="<p> Hi my name is Aarti </p> ";
 OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
 OUTPUT.innerHTML +="<p> I am studying cs </p> ";
+writeLine();
 }
