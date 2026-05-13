@@ -34,9 +34,6 @@ Main code
 /****************************
 Functions
 ****************************/
-function writeLine(){
-    OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
-}
 
 function getFormInput(){
     const nameField = document.getElementById("nameField");
@@ -47,6 +44,9 @@ function getFormInput(){
     OUTPUT.innerHTML +="<p> i am 16 year old  </p> ";
     OUTPUT.innerHTML +="<p> I am studying cs </p> ";
 
+    function writeLine(){
+    OUTPUT.innerHTML +="<p>Welcome to the shop</p>";
+}
 writeLine();
 displayProduct("Chocolate bar", 4);
 displayProduct("Chips", 3);
