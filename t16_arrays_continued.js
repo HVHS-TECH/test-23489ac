@@ -97,8 +97,6 @@ function addItem(){
 
 }
 function showList() {
-     const itemField = document.getElementById("showField");
-  let showField= showField.value;
 OUTPUT.innerHTML += "<h3>These are the items on your shopping list:</h3>";
 for(let i= 0; i<shoppingList.length; i++ ){
  OUTPUT.innerHTML += "<p>" + shoppingList[i] + "</p>";
