@@ -21,6 +21,7 @@ function getFormInput(){
 
     
 for (let i=0; i<=99; i++){
+    if (userChoice)
     OUTPUT.innerHTML +=" bottles of <milk> on the wall."
     
 }
