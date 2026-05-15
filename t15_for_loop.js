@@ -22,7 +22,7 @@ function getFormInput(){
     
 for (let i=0; i<=99; i++){
     if (userChoice)
-    OUTPUT.innerHTML +=" bottles of <milk> on the wall."
+    OUTPUT.innerHTML +=" +usernumber+ bottles of <milk> on the wall."
     
 }
 }
