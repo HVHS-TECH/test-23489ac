@@ -17,7 +17,8 @@ Functions
 ****************************/
 
  function startSong() {
-let verses = Number(document.getElementById("verseInput").value);
+const VERSE_FIELD = document.getElementById("userVerse");
+let verses = Number(VERSE_FIELD.value);
 let output = "";
 for (let bottles = verses; bottles >= 1; bottles--) {
 if (bottles === 1) {
