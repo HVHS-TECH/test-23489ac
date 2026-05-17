@@ -8,7 +8,7 @@ console.log("Running T15_iteration_for_loop.js");
 /****************************
 Main code
 ****************************/
- document.getElementById("output").innerHTML = output;
+ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 
 
@@ -35,5 +35,4 @@ if (bottles - 1 === 1) {
   }
  }
 
- document.getElementById("output").innerHTML = output;
  }
