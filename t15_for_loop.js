@@ -25,8 +25,8 @@ OUTPUT.innerHTML += "<p>1 bottle of milk on the wall, 1 bottle of milk.</p>";
 OUTPUT.innerHTML += "<p>Take one down and pass it around, no more bottles of milk on the wall.</p>";
 } else {
 OUTPUT.innerHTML += "<p>" + bottles + " bottles of milk on the wall, " + bottles + " bottles of milk.</p>";
-OUTPUT.innerHTML += "<p>Take one down and pass it around, " + (bottles - 1);
- if (bottles - 1 === 1) {
+OUTPUT.innerHTML += "<p>Take one down and pass it around, " + (bottles + 1);
+ if (bottles === 1) {
   OUTPUT.innerHTML += " bottle of milk on the wall.</p>";
 } else {
   OUTPUT.innerHTML += " bottles of milk on the wall.</p>";
