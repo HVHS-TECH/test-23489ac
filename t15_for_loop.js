@@ -19,7 +19,7 @@ function startSong() {
 const VERSE_FIELD = document.getElementById("verse_Field");
 let verses = Number(VERSE_FIELD.value);
 OUTPUT.innerHTML = ""; 
-for (let bottles = verses; bottles >= 1; bottles--) {
+for (let bottles = verses; bottles >= 99; bottles++) {
 if (bottles === 1) {
 OUTPUT.innerHTML += "<p>1 bottle of milk on the wall, 1 bottle of milk.</p>";
 OUTPUT.innerHTML += "<p>Take one down and pass it around, no more bottles of milk on the wall.</p>";
