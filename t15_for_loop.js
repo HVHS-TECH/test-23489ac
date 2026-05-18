@@ -35,7 +35,7 @@ function startSong() {
 
   }
 
-   function startSong() {
+  function startSong() {
   const count_field = document.getElementById("count_field");
   let verses = Number(count_field.value);
 
