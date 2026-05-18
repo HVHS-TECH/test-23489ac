@@ -22,16 +22,17 @@ let verses = Number(VERSE_FIELD.value);
 let output = "";
 for (let bottles = verses; bottles >= 1; bottles--) {
 if (bottles === 1) {
-output += "1 bottle of milk on the wall, 1 bottle of milk.<br>";
- output += "Take one down and pass it around, no more bottles of milk on the wall.<br><br>";
+OUTPUT.innerHTML += "1 bottle of milk on the wall, 1 bottle of milk.<br>";
+ OUTPUT.innerHTML += "Take one down and pass it around, no more bottles of milk on the wall.<br><br>";
 } else {
-output += bottles + " bottles of milk on the wall, " + bottles + " bottles of milk.<br>";
-output += "Take one down and pass it around, " + (bottles - 1);
+OUTPUT.innerHTML += <p> bottles + " bottles of milk on the wall, " + bottles + " bottles of milk.
+</p>";
+OUTPUT.innerHTML += "<p>Take one down and pass it around, " + (bottles - 1)</p>;
 
 if (bottles - 1 === 1) {
- output += " bottle of milk on the wall.<br><br>";
+ OUTPUT.innerHTML += "<p> bottle of milk on the wall.</p>";
 } else {
-  output += " bottles of milk on the wall.<br><br>";
+  OUTPUT.innerHTML += "<p> bottles of milk on the wall.</p>";
   }
   }
  }
