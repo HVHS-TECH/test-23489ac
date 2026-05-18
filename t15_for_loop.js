@@ -43,6 +43,7 @@ function startSong() {
 }else{ 
 OUTPUT.innerHTML +="<p>" +i+  "bananas </p>"
 }
+
   
 
   }
