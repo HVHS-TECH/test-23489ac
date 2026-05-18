@@ -35,4 +35,12 @@ function startSong() {
 
   }
 
+   function startSong() {
+  const count_field = document.getElementById("count_field");
+  let verses = Number(count_field.value);
+
+for(let i= 1; i<10; i++ ){
+  OUTPUT.innerHTML +=<p> i : banana </p>
+
+  }
 }
