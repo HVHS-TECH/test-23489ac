@@ -34,6 +34,7 @@ function startSong() {
     }
 
   }
+}
 
 function startSong() {
   for(let i= 1; i<10; i++ ){
