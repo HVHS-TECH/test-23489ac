@@ -39,6 +39,6 @@ function startSong() {
 function startSong() {
   for(let i= 10; i>0; i=i-2 ){
   OUTPUT.innerHTML +="<p>" +i+  "banana </p>"
-
+if ()
   }
 }
