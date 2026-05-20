@@ -67,7 +67,7 @@ function getFormInput(){
  const PRICE = 4
  OUTPUT.innerHTML = "<p>A chocolate bar costs $4</p>";
     if (usermoney >=PRICE ){
-        var change = calculateChange (usermoney,PRICE )
+        let change = calculateChange (usermoney,PRICE )
     OUTPUT.innerHTML +="<p>You CAN afford a chocolate bar</p>";    
     OUTPUT.innerHTML += "<p>You will get $" + change + " change</p>";
 } else{
