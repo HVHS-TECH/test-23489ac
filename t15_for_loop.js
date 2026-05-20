@@ -36,7 +36,7 @@ function startSong() {
   }
 }
 
-function startSong() {
+function startmainSong() {
   for(let i= 1; i<10; i++ ){
   if (i<=1)  {
  OUTPUT.innerHTML +="<p>" +i+  "banana </p>"
