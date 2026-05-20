@@ -93,16 +93,18 @@ function addItem(){
   const itemField = document.getElementById("itemField");
   if( itemField.checkvalidity()=== false){
     OUTPUT.innerHTML = "please fill out all fiels corretly.<br>";
-  }
+  } else{
   let userItem = itemField.value;
   shoppingList.push("userItem")
   OUTPUT.innerHTML += "<p>You have added "+ userItem +" to the list </p>";
-  
-
 }
+
+
 function showList() {
 OUTPUT.innerHTML += "<h3>These are the items on your shopping list:</h3>";
 for(let i= 0; i<shoppingList.length; i++ ){
  OUTPUT.innerHTML += "<p>" + shoppingList[i] + "</p>";
+}
+}
 }
 }
