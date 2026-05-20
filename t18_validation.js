@@ -91,9 +91,13 @@ for (let i=0; i<=99; i++){
 let shoppingList = [];
 function addItem(){
   const itemField = document.getElementById("itemField");
+  if( itemField.checkvalidity()=== false){
+    OUTPUT.innerHTML = "please fill out all fiels corretly.<br>";
+  }
   let userItem = itemField.value;
   shoppingList.push("userItem")
   OUTPUT.innerHTML += "<p>You have added "+ userItem +" to the list </p>";
+  
 
 }
 function showList() {
