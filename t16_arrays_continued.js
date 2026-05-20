@@ -88,7 +88,7 @@ for (let i=0; i<=99; i++){
     
 }
 }
-let shoppingList = [ "dress", "jeans", "bag" , "phone", "hoodie"];
+let shoppingList = [];
 function addItem(){
   const itemField = document.getElementById("itemField");
   let userItem = itemField.value;
