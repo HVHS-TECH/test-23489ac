@@ -40,12 +40,11 @@ function startSong() {
   for(let i= 1; i<10; i++ ){
   if (i<=1)  {
  OUTPUT.innerHTML +="<p>" +i+  "banana </p>"
-} 
 } else { 
 OUTPUT.innerHTML +="<p>" +i+  "bananas </p>"
-
-
+}
+{
+ OUTPUT.innerHTML +="<p> All the bananas </p>" 
+}
 OUTPUT.innerHTML +="<p> All the bananas </p>"
   
-
-  }
