@@ -43,9 +43,9 @@ function startSong() {
 } 
 } else { 
 OUTPUT.innerHTML +="<p>" +i+  "bananas </p>"
-OUTPUT.innerHTML +="<p> All the bananas </p>"
-}
 
+
+OUTPUT.innerHTML +="<p> All the bananas </p>"
   
 
   }
