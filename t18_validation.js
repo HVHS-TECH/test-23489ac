@@ -80,14 +80,7 @@ let messages = [ "You loathe chocolate", "Chocolate is meh", "Chocolate is prett
     let userChoice = chocolate_Field.value;
     OUTPUT.innerHTML += "<p>"+ messages[userChoice]+ "</p>";
 }
-function getFormInput(){
-    const song_Field = document.getElementById("songField");
-    let userChoice = song_Field.value;
-for (let i=0; i<=99; i++){
-    ("99 bottles of <milk> on the wall.")
-    
-}
-}
+
 let shoppingList = [];
 function addItem(){
   const itemField = document.getElementById("itemField");
