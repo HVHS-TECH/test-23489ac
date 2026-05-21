@@ -91,11 +91,11 @@ for (let i=0; i<=99; i++){
 let shoppingList = [];
 function addItem(){
   const itemField = document.getElementById("itemField");
-  if( itemField.checkvalidity()=== false){
+  if( itemField.checkValidity()=== false){
     OUTPUT.innerHTML = "please fill out all fiels corretly.<br>";
   } else{
   let userItem = itemField.value;
-  shoppingList.push("userItem")
+  shoppingList.push(userItem)
   OUTPUT.innerHTML += "<p>You have added "+ userItem +" to the list </p>";
 }
 
