@@ -44,11 +44,10 @@ function writeLine(){
 }
 }
 function getFormInput(){
-      alert("button works");
     const NAME_fIELD = document.getElementById("nameField");
     let userName = NAME_fIELD.value;
     OUTPUT.innerHTML+= "<p> welcome to my page "+userName+"</p>"
-}
+
 function getFormInput(){
  const AGE_fIELD = document.getElementById("ageField");
     let userAge = AGE_fIELD.value;
@@ -97,6 +96,7 @@ function showList() {
 OUTPUT.innerHTML += "<h3>These are the items on your shopping list:</h3>";
 for(let i= 0; i<shoppingList.length; i++ ){
  OUTPUT.innerHTML += "<p>" + shoppingList[i] + "</p>";
+}
 }
 }
 }
