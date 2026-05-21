@@ -82,7 +82,7 @@ let messages = [ "You loathe chocolate", "Chocolate is meh", "Chocolate is prett
 }
 
 let shoppingList = [];
-function shoppinglist(){
+function shoppingitem(){
   const itemField = document.getElementById("itemField");
   if( itemField.checkValidity()=== false){
     OUTPUT.innerHTML = "please fill out all fiels corretly.<br>";
@@ -91,10 +91,10 @@ function shoppinglist(){
   shoppingList.push(userItem)
   OUTPUT.innerHTML += "<p>You have added "+ userItem +" to the list </p>";
 }
-
+function shoppingshow(){
 OUTPUT.innerHTML += "<h3>These are the items on your shopping list:</h3>";
 for(let i= 0; i<shoppingList.length; i++ ){
  OUTPUT.innerHTML += "<p>" + shoppingList[i] + "</p>";
 }
 }
-
+}
