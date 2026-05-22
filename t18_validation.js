@@ -84,14 +84,12 @@ let messages = [ "You loathe chocolate", "Chocolate is meh", "Chocolate is prett
 let shoppingList = [];
 function shoppingitem(){
   const itemField = document.getElementById("itemField");
-   let userItem = itemField.value;
-  shoppingList.push(userItem)
-  OUTPUT.innerHTML += "<p>You have added "+ userItem +" to the list </p>";
   if( itemField.checkValidity()=== false){
     OUTPUT.innerHTML = "please fill out all fiels corretly.<br>";
-  } else{ // process the form normally....
-
-  }
+  } else{}
+  let userItem = itemField.value;
+  shoppingList.push(userItem)
+  OUTPUT.innerHTML += "<p>You have added "+ userItem +" to the list </p>";
 }
 
 function shoppingshow(){
