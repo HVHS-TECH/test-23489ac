@@ -86,16 +86,20 @@ function shoppingitem() {
     const itemField = document.getElementById("itemField");
     if (itemField.checkValidity() === false) {
         OUTPUT.innerHTML = "please fill out all fiels corretly.<br>";
-    } else { }
+    } else { 
     let userItem = itemField.value;
     shoppingList.push(userItem)
     OUTPUT.innerHTML += "<p>You have added " + userItem + " to the list </p>";
 }
+}
 
 function shoppingshow() {
     OUTPUT.innerHTML += "<h3>These are the items on your shopping list:</h3>";
+    if (itemField.checkValidity() === false) {
+        OUTPUT.innerHTML = "please fill out all fiels corretly.<br>";
+    } else { 
     for (let i = 0; i < shoppingList.length; i++) {
         OUTPUT.innerHTML += "<p>" + shoppingList[i] + "</p>";
     }
 }
-
+}
