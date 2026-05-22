@@ -96,7 +96,7 @@ function shoppingitem() {
 function shoppingshow() {
     OUTPUT.innerHTML += "<h3>These are the items on your shopping list:</h3>";
     if (itemField.checkValidity() === false) {
-        OUTPUT.innerHTML = "please fill out all fiels corretly.<br>";
+        OUTPUT.innerHTML = "please fill out all fields corretly.<br>";
     } else { 
     for (let i = 0; i < shoppingList.length; i++) {
         OUTPUT.innerHTML += "<p>" + shoppingList[i] + "</p>";
