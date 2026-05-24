@@ -51,9 +51,8 @@ function getNameInput() {
 }else if (userName.length < 3) {
      OUTPUT.innerHTML = "<p>Name must be at least 3 letters long.</p>";
 } else {
-    OUTPUT.innerHTML = "<p>Welcome.</p>";
+    OUTPUT.innerHTML = "<p>Welcome to my page"+ userName+".</p>";
 }
-
 function getFormInput() {
     const AGE_fIELD = document.getElementById("ageField");
     let userAge = AGE_fIELD.value;
