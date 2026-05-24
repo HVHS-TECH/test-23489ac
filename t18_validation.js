@@ -43,11 +43,11 @@ function start() {
         OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
     }
 }
-function getFormInput() {
-    alert("button works");
+function getNameInput() {
     const NAME_fIELD = document.getElementById("nameField");
     let userName = NAME_fIELD.value;
-    OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>"
+    if (NAME_fIELD.checkValidity() === false) {
+        OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>"
 }
 function getFormInput() {
     const AGE_fIELD = document.getElementById("ageField");
@@ -101,5 +101,6 @@ function shoppingshow() {
     for (let i = 0; i < shoppingList.length; i++) {
         OUTPUT.innerHTML += "<p>" + shoppingList[i] + "</p>";
     }
+}
 }
 }
