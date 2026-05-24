@@ -53,7 +53,8 @@ function getNameInput() {
 } else {
     OUTPUT.innerHTML = "<p>Welcome to my page"+ userName+".</p>";
 }
-function getFormInput() {
+}
+function getAgeInput() {
     const AGE_fIELD = document.getElementById("ageField");
     let userAge = AGE_fIELD.value;
     const MONEY_fIELD = document.getElementById("moneyField");
@@ -65,7 +66,7 @@ function getFormInput() {
 function calculateChange(_money, _price) {
     return _money - _price;
 }
-function getFormInput() {
+function getMoneyInput() {
     const MONEY_fIELD = document.getElementById("moneyField");
     let usermoney = MONEY_fIELD.value;
     const PRICE = 4
@@ -78,7 +79,7 @@ function getFormInput() {
         OUTPUT.innerHTML += "<p>Sorry you CAN'T afford a chocolate bar </p>";
     }
 }
-function getFormInput() {
+function getMessageInput() {
     let messages = ["You loathe chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER"];
     const chocolate_Field = document.getElementById("chocolate_Field");
     let userChoice = chocolate_Field.value;
@@ -105,6 +106,5 @@ function shoppingshow() {
     for (let i = 0; i < shoppingList.length; i++) {
         OUTPUT.innerHTML += "<p>" + shoppingList[i] + "</p>";
     }
-}
 }
 }
