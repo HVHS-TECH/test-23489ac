@@ -99,6 +99,7 @@ function shoppingitem() {
 }
 
 function shoppingshow() {
+    const itemField = document.getElementById("itemField");
     OUTPUT.innerHTML += "<h3>These are the items on your shopping list:</h3>";
     if (itemField.checkValidity() === false) {
         OUTPUT.innerHTML = "please fill out all fields corretly.<br>";
