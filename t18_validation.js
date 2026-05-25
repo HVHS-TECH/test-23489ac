@@ -48,12 +48,12 @@ function getNameInput() {
     let userName = NAME_fIELD.value;
     if (NAME_fIELD.checkValidity() === false) {
         OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>"
-}else if (NaN(userName)) {
-     OUTPUT.innerHTML = "<p> please write the name .</p>";
 } else if (userName.length < 3) {
      OUTPUT.innerHTML = "<p>please write the name .</p>";
-}else {
+}else if {
     OUTPUT.innerHTML = "<p>Welcome to my page"+ userName+".</p>";
+} else  (NaN(userName)) {
+     OUTPUT.innerHTML = "<p> please write the name .</p>";
 }
 }
 function getAgeInput() {
