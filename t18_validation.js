@@ -48,10 +48,11 @@ function getNameInput() {
     let userName = NAME_fIELD.value;
     if (NAME_fIELD.checkValidity() === false) {
         OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>"
-}else if (userName.length < 3) {
-     OUTPUT.innerHTML = "<p>Name must be at least 3 letters long.</p>";
-} else if (userName.length < 3) {
+} else if (NaN(userName)) {
      OUTPUT.innerHTML = "<p> please write the name .</p>";
+     } else if (userName.length < 3) {
+     OUTPUT.innerHTML = "<p>Name must be at least 3 letters long.</p>";
+} else if (NaN(userName)) {
 }else {
     OUTPUT.innerHTML = "<p>Welcome to my page"+ userName+".</p>";
 }
