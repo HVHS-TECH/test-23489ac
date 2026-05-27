@@ -50,7 +50,7 @@ function getNameInput() {
         OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>"
 } else if (userName.length < 3) {
      OUTPUT.innerHTML = "<p>please write the name .</p>";
-} else (NaN(userName)) {
+} else (!userName) {
      OUTPUT.innerHTML = "<p> please write the name .</p>";
 }
 }
