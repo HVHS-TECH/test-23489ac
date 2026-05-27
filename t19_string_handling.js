@@ -54,7 +54,7 @@ if (userName.length < 3) {
      OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
 
 }
-
+ 
     
 function getAgeInput() {
     const AGE_fIELD = document.getElementById("ageField");
