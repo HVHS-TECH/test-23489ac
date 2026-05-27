@@ -50,8 +50,9 @@ if (userName.length < 3) {
      OUTPUT.innerHTML = "<p>please write the name .</p>";
 } else if (!userName) {
      OUTPUT.innerHTML = "<p> please .</p>";
-}else (NAME_fIELD.checkValidity() === false)
+}else if (NAME_fIELD.checkValidity() === false)
      OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
+
 }
 
     
