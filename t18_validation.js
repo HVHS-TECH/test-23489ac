@@ -50,10 +50,10 @@ if (userName.length < 3) {
      OUTPUT.innerHTML = "<p>please write the name .</p>";
 } else if (!userName) {
      OUTPUT.innerHTML = "<p> please write the name .</p>";
-}else (NAME_fIELD.checkValidity() === false){
+}else (NAME_fIELD.checkValidity() === false)
      OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
 }
-}
+
     
 function getAgeInput() {
     const AGE_fIELD = document.getElementById("ageField");
