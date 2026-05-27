@@ -47,7 +47,7 @@ function getNameInput() {
     const NAME_fIELD = document.getElementById("nameField");
     let userName = NAME_fIELD.value;
 if (userName.length < 3) {
-     OUTPUT.innerHTML = "<p>please write the name .</p>";
+     OUTPUT.innerHTML = "<p>the name must be at least three letters long  .</p>";
 } else if (!userName) {
      OUTPUT.innerHTML = "<p> please .</p>";
 }else if (NAME_fIELD.checkValidity() === false)
