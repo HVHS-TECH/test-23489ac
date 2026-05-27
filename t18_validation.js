@@ -46,14 +46,15 @@ function start() {
 function getNameInput() {
     const NAME_fIELD = document.getElementById("nameField");
     let userName = NAME_fIELD.value;
-    if (NAME_fIELD.checkValidity() === false) {
-        OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>"
-} else if (userName.length < 3) {
+if (userName.length < 3) {
      OUTPUT.innerHTML = "<p>please write the name .</p>";
-} else (!userName) {
+} else if (!userName) {
      OUTPUT.innerHTML = "<p> please write the name .</p>";
+}else (NAME_fIELD.checkValidity() === false){
+     OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>"
 }
 }
+    
 function getAgeInput() {
     const AGE_fIELD = document.getElementById("ageField");
     let userAge = AGE_fIELD.value;
