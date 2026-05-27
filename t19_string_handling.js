@@ -49,12 +49,13 @@ function getNameInput() {
 if (userName.length < 3) {
      OUTPUT.innerHTML = "<p> The name must be at least three letters long.</p>";
 } else if (!userName) {
-     OUTPUT.innerHTML = "<p> please .</p>";
-}else if (NAME_fIELD.checkValidity() === false)
-     OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
-
-}else{}
- 
+     OUTPUT.innerHTML = "<p> Enter your name  .</p>";
+}else if (NAME_fIELD.checkValidity() === false){
+    OUTPUT.innerHTML += "<p>please fill all the fiels correctly </p>";
+}else {
+    OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
+}
+}
     
 function getAgeInput() {
     const AGE_fIELD = document.getElementById("ageField");
