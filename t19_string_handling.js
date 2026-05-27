@@ -53,7 +53,7 @@ if (userName.length < 3) {
 }else if (NAME_fIELD.checkValidity() === false)
      OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
 
-}
+}else{}
  
     
 function getAgeInput() {
