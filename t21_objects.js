@@ -23,7 +23,7 @@ console.log(" Then you get $3, now you ", +leftmoney + add)
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 let user = [
-    name : "Aarti",
+    name : "ish",
     age : 16,
 ]
 
