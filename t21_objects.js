@@ -25,8 +25,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 let user = [
     name : "Aarti",
     age : 16,
-],
-
+]
 
 /****************************
 Main code
