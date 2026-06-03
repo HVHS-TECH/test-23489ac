@@ -8,14 +8,14 @@ const userName = 'Aarti';
 const userAge = 16;
 const usermoney = 10;
 const usercurrentyear = 2026;
-console.log(" hi " + userName);
-console.log(" A of " + usercurrentyear + " you are " + userAge + " years old ");
-console.log(" You have " + usermoney + " dollars ");
 const mybirthyear = 2009
 const in10years = 10
 const youspend = 2
 const add = 3
 const leftmoney = 5
+console.log(" hi " + userName);
+console.log(" A of " + usercurrentyear + " you are " + userAge + " years old ");
+console.log(" You have " + usermoney + " dollars ");
 console.log(" You were born in " + mybirthyear);
 console.log(" In 10 year you will be ", + userAge + in10years);
 console.log(" You spend half of your money,now you have ", + usermoney / youspend);
