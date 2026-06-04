@@ -44,7 +44,15 @@ function start() {
 }
 function getNameInput() {
     const NAME_fIELD = document.getElementById("nameField");
+    const AGE_fIELD = document.getElementById("ageField");
+    const MONEY_fIELD = document.getElementById("moneyField");
+    const CHOCOLATE_FIELD = document.getElementById("chocolate_Field");
+    
     let userName = NAME_fIELD.value;
+    let usermoney = MONEY_fIELD.value;
+    let usermoney = MONEY_fIELD.value;
+    let chocolateChoice = CHOCOLATE_FIELD.value;
+
 if (userName.length < 3) {
      OUTPUT.innerHTML = "<p> The name must be at least three letters long.</p>";
 } else if (!userName) {
@@ -52,7 +60,7 @@ if (userName.length < 3) {
 }else if (NAME_fIELD.checkValidity() === false){
     OUTPUT.innerHTML += "<p>please fill all the fiels correctly </p>";
 }else {
-    OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
+   
 }
 }
     
