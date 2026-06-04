@@ -73,7 +73,14 @@ if (userName.length < 3) {
         OUTPUT.innerHTML += "<p>User saved successfully.</p>";
 }
 }
-    
+  function showUsers() {
+
+    OUTPUT.innerHTML += "<h3>All Users:</h3>";
+    for (let i = 0; i < users.length; i++) {
+        OUTPUT.innerHTML += "<p>Hello " + users[i].name + "</p>";
+    }
+}
+
 function getAgeInput() {
     const AGE_fIELD = document.getElementById("ageField");
     let userAge = AGE_fIELD.value;
