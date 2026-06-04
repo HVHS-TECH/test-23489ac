@@ -60,7 +60,13 @@ if (userName.length < 3) {
 }else if (NAME_fIELD.checkValidity() === false){
     OUTPUT.innerHTML += "<p>please fill all the fiels correctly </p>";
 }else {
-   
+    let userObject ={
+        name : userName,
+        age : userAge,
+        money : usermoney,
+        choclate: chocolateChoice,
+
+    };
 }
 }
     
