@@ -61,7 +61,7 @@ if ( !userName) {
 }else if (NAME_fIELD.checkValidity() === false){
     OUTPUT.innerHTML += "<p>please fill all the fiels correctly </p>";
 }else {
-    let userObject ={
+    let userObject = {
         name : userName,
         age : userAge,
         money : usermoney,
@@ -79,6 +79,9 @@ if ( !userName) {
     OUTPUT.innerHTML += "<h3>All Users:</h3>";
     for (let i = 0; i < users.length; i++) {
         OUTPUT.innerHTML += "<p>Hello " + users[i].name + "</p>";
+        OUTPUT.innerHTML +="<p>your age is"+ user[i].age +"</p>";
+        OUTPUT.innerHTML +="<p>You have"+ user[i].money +"</p>";
+        OUTPUT.innerHTML +="<p>"+ user[i].chocolateChoice +"</p>";
     }
 }
 
