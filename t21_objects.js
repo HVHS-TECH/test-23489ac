@@ -42,6 +42,7 @@ function start() {
         OUTPUT.innerHTML += "<p>Welcome to the shop</p>";
     }
 }
+let users = [];
 function getNameInput() {
     const NAME_fIELD = document.getElementById("nameField");
     const AGE_fIELD = document.getElementById("ageField");
