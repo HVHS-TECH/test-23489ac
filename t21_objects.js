@@ -59,14 +59,14 @@ if (userName.length < 3) {
      OUTPUT.innerHTML = "<p> Enter your name  .</p>";
 }else if (NAME_fIELD.checkValidity() === false){
     OUTPUT.innerHTML += "<p>please fill all the fiels correctly </p>";
-}else {
-    let userObject ={
+}else [
+    let userObject =
         name : userName,
         age : userAge,
         money : usermoney,
-        choclate: chocolateChoice,
+        chocolate: chocolateChoice,
 
-    };
+];
      users.push(userObject);
 
         OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
