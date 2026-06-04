@@ -49,7 +49,7 @@ function getNameInput() {
     const CHOCOLATE_FIELD = document.getElementById("chocolate_Field");
     
     let userName = NAME_fIELD.value;
-    let usermoney = MONEY_fIELD.value;
+    let userAge = AGE_fIELD.value;
     let usermoney = MONEY_fIELD.value;
     let chocolateChoice = CHOCOLATE_FIELD.value;
 
