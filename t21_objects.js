@@ -72,9 +72,7 @@ if ( !userName) {
 
         OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
         OUTPUT.innerHTML += "<p>User saved successfully.</p>";
-        OUTPUT.innerHTML +="<p>your age is"+ userage +"</p>";
-        OUTPUT.innerHTML +="<p>You have"+ usermoney +"</p>";
-        OUTPUT.innerHTML +="<p>"+ chocolateChoice +"</p>";
+        
 }
 }
   function showUsers() {
@@ -82,7 +80,9 @@ if ( !userName) {
     OUTPUT.innerHTML += "<h3>All Users:</h3>";
     for (let i = 0; i < users.length; i++) {
         OUTPUT.innerHTML += "<p>Hello " + users[i].name + "</p>";
-       
+        OUTPUT.innerHTML +="<p>your age is"+ user[1].age +"</p>";
+        OUTPUT.innerHTML +="<p>You have"+ user[2].money +"</p>";
+        OUTPUT.innerHTML +="<p>"+ user[3].chocolateChoice +"</p>";
     }
 }
 
