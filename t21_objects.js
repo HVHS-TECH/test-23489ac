@@ -57,7 +57,7 @@ function getNameInput() {
 if ( !userNameuserName.length < 3) {
      OUTPUT.innerHTML = "<p> Enter your name.</p>";
 } else if (userName.length < 3) {
-     OUTPUT.innerHTML = "<p> The name must be at least three letters long.Enter your name  .</p>";
+     OUTPUT.innerHTML += "<p> The name must be at least three letters long.Enter your name  .</p>";
 }else if (NAME_fIELD.checkValidity() === false){
     OUTPUT.innerHTML += "<p>please fill all the fiels correctly </p>";
 }else {
