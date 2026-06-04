@@ -79,8 +79,9 @@ if ( !userName) {
 
      users.push(userObject);
 
-        OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
         OUTPUT.innerHTML += "<p>User saved successfully.</p>";
+        OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
+        OUTPUT.innerHTML += "<p> welcome to my pag " + userName + "</p>";OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
 }
 
   function showUsers() {
