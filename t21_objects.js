@@ -61,8 +61,10 @@ if ( !userName) {
 }else if (NAME_fIELD.checkValidity() === false){
     OUTPUT.innerHTML += "<p>please fill all the fiels correctly </p>";
 }else {
-    let userObject = {
-        name : userName,
+    let users = {
+      name : userName
+    }
+     name : userName,
         age : userAge,
         money : usermoney,
         chocolate: chocolateChoice,
