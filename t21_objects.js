@@ -54,7 +54,7 @@ function getNameInput() {
     let usermoney = MONEY_fIELD.value;
     let chocolateChoice = CHOCOLATE_FIELD.value;
 
-if ( !userNameuserName.length < 3) {
+if ( !userName.length < 3) {
      OUTPUT.innerHTML = "<p> Enter your name.</p>";
 } else if (userName.length < 3) {
      OUTPUT.innerHTML += "<p> The name must be at least three letters long.Enter your name  .</p>";
