@@ -65,7 +65,6 @@ if ( !userName) {
         name : userName,
         age : userAge,
         money : usermoney,
-    
         chocolate: chocolateChoice,
 
 };
