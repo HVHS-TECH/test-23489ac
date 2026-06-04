@@ -22,10 +22,6 @@ console.log(" You spend half of your money,now you have ", + usermoney / youspen
 console.log(" Then you get $3, now you ", +leftmoney + add)
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-let user = [
-    name : "ish",
-    age : 16,
-]
 
 /****************************
 Main code
