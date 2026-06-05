@@ -61,27 +61,22 @@ if ( !userName) {
 }else if (NAME_fIELD.checkValidity() === false){
     OUTPUT.innerHTML += "<p>please fill all the fiels correctly </p>";
 }else {
-    let users = [
-     {
-      name : userName,
-    },
-    {
+    let users = {
+    
+     name : userName,
      age : userAge,  
-    },
-    {
      money : usermoney,
-    }, 
-      {
-         chocolate: chocolateChoice,
-      }, 
-    ]
+     chocolate: chocolateChoice,
+
+    }
+  
+}
 };
 
      users.push(userObject);
 
         OUTPUT.innerHTML += "<p>User saved successfully.</p>";
         OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
-        OUTPUT.innerHTML += "<p> welcome to my pag " + userName + "</p>";OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
 }
 
   function showUsers() {
