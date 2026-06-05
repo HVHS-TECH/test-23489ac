@@ -61,7 +61,7 @@ if ( !userName) {
 }else if (NAME_fIELD.checkValidity() === false){
     OUTPUT.innerHTML += "<p>please fill all the fiels correctly </p>";
 }else {
-    let users = {
+    let userObject = {
     
      name : userName,
      age : userAge,  
@@ -69,10 +69,8 @@ if ( !userName) {
      chocolate: chocolateChoice,
 
     }
-  
 }
 };
-
      users.push(userObject);
 
         OUTPUT.innerHTML += "<p>User saved successfully.</p>";
