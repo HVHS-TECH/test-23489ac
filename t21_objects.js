@@ -62,7 +62,6 @@ if ( !userName) {
     OUTPUT.innerHTML += "<p>please fill all the fiels correctly </p>";
 }else {
     let userObject = {
-    
      name : userName,
      age : userAge,  
      money : usermoney,
