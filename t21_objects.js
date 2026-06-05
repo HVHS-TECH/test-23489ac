@@ -57,7 +57,7 @@ function getNameInput() {
 if ( !userName) {
      OUTPUT.innerHTML += "<p> Please enter your name.</p>";
 } else if (userName.length < 3) {
-     OUTPUT.innerHTML += "<p> The name must be at least three letters long.Enter your name  .</p>";
+     OUTPUT.innerHTML += "<p> The name must be at least three letters long .</p>";
 }else if (NAME_fIELD.checkValidity() === false){
     OUTPUT.innerHTML += "<p>please fill all the fiels correctly </p>";
 }else {
@@ -70,16 +70,16 @@ if ( !userName) {
      users.push(userObject);
 
         OUTPUT.innerHTML += "<p>User saved successfully.</p>";
-        OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
+        OUTPUT.innerHTML += "<p> welcome to my page " + name + "</p>";
 
 }
 
 };
   function showUsers() {
 
-    OUTPUT.innerHTML += "<h3> Welcome to all the Users:</h3>";
+    OUTPUT.innerHTML += "<h3> Welcome to my page :</h3>";
     for (let i = 0; i < users.length; i++) {4
-        OUTPUT.innerHTML += "<p>Hello " + userObject.name + "</p>";
+        OUTPUT.innerHTML += "<p>Hello " + user[i].name + "</p>";
     }
 }
 
