@@ -80,9 +80,8 @@ if ( !userName) {
   function showUsers() {
 
     OUTPUT.innerHTML += "<h3> Welcome to all the Users:</h3>";
-    for (let i = 0; i < users.length; i++) {
-        var thisUser = users[i]
-        OUTPUT.innerHTML += "<p>Hello " + users[i].name + "</p>";
+    for (let i = 0; i < users.length; i++) {4
+        OUTPUT.innerHTML += "<p>Hello " + users.name + "</p>";
     }
 }
 
