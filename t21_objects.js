@@ -77,7 +77,6 @@ if ( !userName) {
 
         OUTPUT.innerHTML += "<p>User saved successfully.</p>";
         OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
-}
 
   function showUsers() {
 
