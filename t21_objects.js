@@ -81,7 +81,7 @@ if ( !userName) {
 
     OUTPUT.innerHTML += "<h3> Welcome to all the Users:</h3>";
     for (let i = 0; i < users.length; i++) {4
-        OUTPUT.innerHTML += "<p>Hello " + users.name + "</p>";
+        OUTPUT.innerHTML += "<p>Hello " + userObject.name + "</p>";
     }
 }
 
