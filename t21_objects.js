@@ -68,14 +68,14 @@ if ( !userName) {
      money : usermoney,
      chocolate: chocolateChoice,
 
-    }
+    
 }
 };
      users.push(userObject);
 
         OUTPUT.innerHTML += "<p>User saved successfully.</p>";
         OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
-
+}
   function showUsers() {
 
     OUTPUT.innerHTML += "<h3> Welcome to all the Users:</h3>";
