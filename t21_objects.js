@@ -79,7 +79,7 @@ if ( !userName) {
 
     OUTPUT.innerHTML += "<h3> Welcome to my page :</h3>";
     for (let i = 0; i < users.length; i++) {
-        OUTPUT.innerHTML += "<p>Helloo " + user[i].name + "</p>";
+        OUTPUT.innerHTML += "<p>Helloo " + users[i].name + "</p>";
     }
 }
 
