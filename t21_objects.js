@@ -70,7 +70,7 @@ if ( !userName) {
      users.push(userObject);
 
         OUTPUT.innerHTML += "<p>User saved successfully.</p>";
-        OUTPUT.innerHTML += "<p> welcome to my page " + name + "</p>";
+        OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
 
 }
 
@@ -78,7 +78,7 @@ if ( !userName) {
   function showUsers() {
 
     OUTPUT.innerHTML += "<h3> Welcome to my page :</h3>";
-    for (let i = 0; i < users.length; i++) {4
+    for (let i = 0; i < users.length; i++) {
         OUTPUT.innerHTML += "<p>Helloo " + user[i].name + "</p>";
     }
 }
