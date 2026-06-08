@@ -80,7 +80,7 @@ if ( !userName) {
         OUTPUT.innerHTML += "<h3> Welcome to my page : "+ users[i].name +"</h3>";
         OUTPUT.innerHTML += "<p>Your age is : " + users[i].age + "</p>";
         OUTPUT.innerHTML += "<p>In your Pocket Money you have : $ " + users[i].money + " </p>";
-        OUTPUT.innerHTML += "<p> your Chocolate Choice is : " + users[i].chocolate + "</p>";
+        OUTPUT.innerHTML += "<p> Your Chocolate Choice is : " + users[i].chocolate + "</p>";
 
     }
 }
