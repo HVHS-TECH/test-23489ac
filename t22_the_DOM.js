@@ -68,7 +68,7 @@ if ( !userName) {
     }
      users.push(userObject);
 
-        OUTPUT.innerHTML += "<p>Your details are saved successfully.</p>";
+        OUTPUT.innerHTML = "<p>Your details are saved successfully.</p>";
 
 }
 
