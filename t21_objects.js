@@ -70,14 +70,14 @@ if ( !userName) {
      users.push(userObject);
 
         OUTPUT.innerHTML = "<p>User saved successfully.</p>";
-        OUTPUT.innerHTML = "<p> welcome to my page " + userName + "</p>";
+        OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
 
 }
 
 };
   function showUsers() {
 
-    OUTPUT.innerHTML += "<h3> Welcome to my page :</h3>";
+    OUTPUT.innerHTML = "<h3> Welcome to my page :</h3>";
     for (let i = 0; i < users.length; i++) {
         OUTPUT.innerHTML += "<p>Helloo " + users[i].name + "</p>";
         OUTPUT.innerHTML += "<p>Age: " + users[i].age + "</p>";
