@@ -45,14 +45,9 @@ function start() {
 let users = [];
 function getNameInput() {
     const NAME_fIELD = document.getElementById("nameField");
-    const AGE_fIELD = document.getElementById("ageField");
-    const MONEY_fIELD = document.getElementById("moneyField");
-    const CHOCOLATE_FIELD = document.getElementById("chocolate_Field");
-    let messages = ["You loathe chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER"];
+    
     let userName = NAME_fIELD.value;
-    let userAge = AGE_fIELD.value;
-    let usermoney = MONEY_fIELD.value;
-    let chocolateChoice = CHOCOLATE_FIELD.value;
+   
 
 if ( !userName) {
      OUTPUT.innerHTML += "<p> Please enter your name.</p>";
@@ -70,8 +65,6 @@ if ( !userName) {
      users.push(userObject);
 
         OUTPUT.innerHTML = "<p>Your details are saved successfully.</p>";
-       
-
 }
 
 };
@@ -79,7 +72,7 @@ if ( !userName) {
 
     
     for (let i = 0; i < users.length; i++) {
-        OUTPUT.innerHTML = "<h3> Welcome to my page :"+ users[i].name +"</h3>";
+        OUTPUT.innerHTML = "<h3> Welcome to my page : "+ users[i].name +"</h3>";
         OUTPUT.innerHTML += "<p>Your age is : " + users[i].age + "</p>";
         OUTPUT.innerHTML += "<p>In your Pocket Money you have : $" + users[i].money + " </p>";
         OUTPUT.innerHTML += "<p> your Chocolate Choice is : " + users[i].chocolate + "</p>";
