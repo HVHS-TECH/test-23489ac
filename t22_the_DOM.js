@@ -68,16 +68,16 @@ if ( !userName) {
     }
      users.push(userObject);
 
-        OUTPUT.innerHTML = "<p>Your details are saved successfully.</p>";
+        OUTPUT.innerHTML += "<p>Your details are saved successfully.</p>";
 
 }
 
 };
   function showUsers() {
 
-    
+    OUTPUT.innerHTML = ""
     for (let i = 0; i < users.length; i++) {
-        OUTPUT.innerHTML = "<h3> Welcome to my page : "+ users[i].name +"</h3>";
+        OUTPUT.innerHTML += "<h3> Welcome to my page : "+ users[i].name +"</h3>";
         OUTPUT.innerHTML += "<p>Your age is : " + users[i].age + "</p>";
         OUTPUT.innerHTML += "<p>In your Pocket Money you have : $ " + users[i].money + " </p>";
         OUTPUT.innerHTML += "<p> your Chocolate Choice is : " + users[i].chocolate + "</p>";
