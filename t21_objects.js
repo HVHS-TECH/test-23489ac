@@ -48,7 +48,7 @@ function getNameInput() {
     const AGE_fIELD = document.getElementById("ageField");
     const MONEY_fIELD = document.getElementById("moneyField");
     const CHOCOLATE_FIELD = document.getElementById("chocolate_Field");
-    
+    let messages = ["You loathe chocolate", "Chocolate is meh", "Chocolate is pretty good", "Chocolate is the best thing EVER"];
     let userName = NAME_fIELD.value;
     let userAge = AGE_fIELD.value;
     let usermoney = MONEY_fIELD.value;
