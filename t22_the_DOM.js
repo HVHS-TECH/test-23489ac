@@ -1,7 +1,7 @@
 /****************************
 Name of the task:
 ****************************/
-console.log("Running T22_DOM.js");
+console.log("Running T21_objects.js");
 
 //Variable
 const userName = 'Aarti';
@@ -48,7 +48,6 @@ function getNameInput() {
     const AGE_fIELD = document.getElementById("ageField");
     const MONEY_fIELD = document.getElementById("moneyField");
     const CHOCOLATE_FIELD = document.getElementById("chocolate_Field");
-    
     let userName = NAME_fIELD.value;
     let userAge = AGE_fIELD.value;
     let usermoney = MONEY_fIELD.value;
@@ -69,20 +68,19 @@ if ( !userName) {
     }
      users.push(userObject);
 
-        OUTPUT.innerHTML += "<p>User saved successfully.</p>";
-        OUTPUT.innerHTML += "<p> welcome to my page " + userName + "</p>";
+        OUTPUT.innerHTML = "<p>Your details are saved successfully.</p>";
 
 }
 
 };
   function showUsers() {
 
-    OUTPUT.innerHTML += "<h3> Welcome to my page :</h3>";
+    
     for (let i = 0; i < users.length; i++) {
-        OUTPUT.innerHTML += "<p>Helloo " + users[i].name + "</p>";
-        OUTPUT.innerHTML += "<p>Age: " + users[i].age + "</p>";
-        OUTPUT.innerHTML += "<p>Pocket Money: $" + users[i].money + "</p>";
-        OUTPUT.innerHTML += "<p>Chocolate Choice: " + users[i].chocolate + "</p>";
+        OUTPUT.innerHTML = "<h3> Welcome to my page : "+ users[i].name +"</h3>";
+        OUTPUT.innerHTML += "<p>Your age is : " + users[i].age + "</p>";
+        OUTPUT.innerHTML += "<p>In your Pocket Money you have : $ " + users[i].money + " </p>";
+        OUTPUT.innerHTML += "<p> your Chocolate Choice is : " + users[i].chocolate + "</p>";
 
     }
 }
