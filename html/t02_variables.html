@@ -26,3 +26,132 @@
 <!--*************************************************************
   END OF T02_VARIABLES.HTML
 **************************************************************-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Rare Cafe</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- stylesheet *******************************************-->
+
+    <link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+
+
+<!--*************************************************************
+  BODY
+**************************************************************-->
+
+
+<body>
+
+
+<h1>Rare Cafe</h1>
+
+
+<p>Welcome to Rare Cafe Ordering System</p>
+
+
+
+<!--*************************************************************
+  MENU
+**************************************************************-->
+
+
+<div id="menuDisplay">
+
+
+</div>
+
+
+
+<br><br>
+
+
+
+<!--*************************************************************
+  CUSTOMER ORDER FORM
+**************************************************************-->
+
+
+<form id="welcomeForm" onsubmit="return false;">
+
+
+    <h2>Customer Details</h2>
+
+
+    <input type="text" id="nameField" placeholder="Enter your name" required>
+
+
+    <br><br>
+
+
+    <input type="number" id="itemField" placeholder="Enter item number" required>
+
+
+    <br><br>
+
+
+    <input type="number" id="moneyField" placeholder="Enter money" required>
+
+
+    <br><br>
+
+
+
+    <input type="submit" value="Add Order" onclick="addOrder()">
+
+
+
+    <input type="submit" value="Place Order" onclick="placeOrder()">
+
+
+
+    <input type="submit" value="Reset" onclick="resetOrder()">
+
+
+
+</form>
+
+
+
+<br><br>
+
+
+
+<!--*************************************************************
+  JavaScript Output
+**************************************************************-->
+
+
+<div id="output">
+
+
+</div>
+
+
+
+<script src="../rare_cafe.js"></script>
+
+
+
+</body>
+
+
+</html>
+
+
+<!--*************************************************************
+  END OF RARE_CAFE.HTML
+**************************************************************-->
