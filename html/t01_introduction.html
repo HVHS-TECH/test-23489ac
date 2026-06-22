@@ -31,3 +31,174 @@
 
 
 
+/****************************
+Name of the task:
+Rare Cafe Ordering System
+****************************/
+console.log("Running Rare_Cafe.js");
+
+
+//Variable
+
+let cafeName = "Rare Cafe";
+let customerName = "Aarti";
+let year = 2026;
+
+console.log("Welcome to " + cafeName);
+console.log("Customer name is " + customerName);
+console.log("The year is " + year);
+
+
+//Menu
+
+let menu = ["Cupcake", "Burger", "Fries", "Cheese Melt"];
+
+let price = [4, 8, 5, 6];
+
+
+const OUTPUT = document.getElementById("output");
+
+const MENU_OUTPUT = document.getElementById("menuDisplay");
+
+
+//Order Variables
+
+let orderItem = "";
+let orderPrice = 0;
+
+
+/****************************
+Main code
+****************************/
+
+function start() {
+
+    OUTPUT.innerHTML = "<h2>Welcome to Rare Cafe</h2>";
+    OUTPUT.innerHTML += "<p>Please select an item from the menu</p>";
+
+    showMenu();
+
+}
+
+
+/****************************
+Functions
+****************************/
+
+
+function showMenu() {
+
+    MENU_OUTPUT.innerHTML = "<h2>Menu</h2>";
+
+    for (let i = 0; i < menu.length; i++) {
+
+        MENU_OUTPUT.innerHTML += "<p>" + (i + 1) + ". " + menu[i] + " - $" + price[i] + "</p>";
+
+    }
+
+}
+
+
+
+function addOrder() {
+
+    const ITEM_FIELD = document.getElementById("itemField");
+
+    let itemNumber = ITEM_FIELD.value;
+
+
+    if (itemNumber >= 1 && itemNumber <= 4) {
+
+        orderItem = menu[itemNumber - 1];
+
+        orderPrice = price[itemNumber - 1];
+
+
+        OUTPUT.innerHTML = "<p>You selected " + orderItem + "</p>";
+
+    } else {
+
+        OUTPUT.innerHTML = "<p>Please choose a number between 1 and 4</p>";
+
+    }
+
+}
+
+
+
+function calculateChange(_money, _price) {
+
+    return _money - _price;
+
+}
+
+
+
+function placeOrder() {
+
+    const NAME_FIELD = document.getElementById("nameField");
+
+    const MONEY_FIELD = document.getElementById("moneyField");
+
+
+    let name = NAME_FIELD.value;
+
+    let money = MONEY_FIELD.value;
+
+
+
+    if (money >= orderPrice) {
+
+
+        let change = calculateChange(money, orderPrice);
+
+
+        OUTPUT.innerHTML = "<h2>Receipt</h2>";
+
+        OUTPUT.innerHTML += "<p>Name: " + name + "</p>";
+
+        OUTPUT.innerHTML += "<p>Item: " + orderItem + "</p>";
+
+        OUTPUT.innerHTML += "<p>Price: $" + orderPrice + "</p>";
+
+        OUTPUT.innerHTML += "<p>Money given: $" + money + "</p>";
+
+        OUTPUT.innerHTML += "<p>Change: $" + change + "</p>";
+
+        OUTPUT.innerHTML += "<p>Thank you for visiting Rare Cafe</p>";
+
+
+
+    } else {
+
+
+        OUTPUT.innerHTML = "<p>Sorry you do not have enough money</p>";
+
+    }
+
+}
+
+
+
+function resetOrder() {
+
+
+    document.getElementById("nameField").value = "";
+
+    document.getElementById("itemField").value = "";
+
+    document.getElementById("moneyField").value = "";
+
+
+    OUTPUT.innerHTML = "";
+
+
+    orderItem = "";
+
+    orderPrice = 0;
+
+}
+
+
+
+start();
